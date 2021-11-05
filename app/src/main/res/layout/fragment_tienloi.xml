@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hothithuhop.khambenhtructuyen.CacVanDeThuongGap.TienloiFragment"
+android:orientation="vertical"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="5"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:textAllCaps="true"
+            android:gravity="left|center"
+            android:textStyle="normal|bold"
+            android:textColor="#3F51B5"
+            android:textSize="25dp"
+            android:text="* Không còn phải"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.01"
+            android:layout_marginTop="-15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="240dp"
+            android:background="#11AA17"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:textAllCaps="true"
+            android:gravity="left|center"
+            android:textStyle="normal|bold"
+            android:textColor="#3F51B5"
+            android:textSize="25dp"
+            android:text="Xếp hàng"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.01"
+            android:layout_marginTop="-15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="275dp"
+            android:background="#11AA17"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:textAllCaps="true"
+            android:textStyle="normal|bold"
+            android:gravity="left|center"
+            android:textColor="#3F51B5"
+            android:textSize="25dp"
+            android:text="Chờ đợi"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.01"
+            android:layout_marginTop="-15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="280dp"
+            android:background="#11AA17"
+            android:layout_marginLeft="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:textAllCaps="true"
+            android:gravity="left|center"
+            android:textStyle="normal|bold"
+            android:textColor="#3F51B5"
+            android:textSize="25dp"
+            android:text="Để lấy số khám *"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:textStyle="normal|bold"
+            android:textColor="#49494A"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left|center"
+            android:textSize="18dp"
+            android:drawableLeft="@drawable/next"
+            android:drawablePadding="5dp"
+            android:paddingLeft="4dp"
+            android:layout_marginRight="5dp"
+            android:text="Đặt lịch khám trước trong vòng 30 ngày"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:textStyle="normal|bold"
+            android:textColor="#49494A"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left|center"
+            android:textSize="18dp"
+            android:drawableLeft="@drawable/next"
+            android:drawablePadding="5dp"
+            android:layout_marginRight="5dp"
+            android:paddingLeft="4dp"
+            android:text="Quy trinh đặt khám động tiến và nhận phiếu khám hoàn toàn trực tuyến"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:textStyle="normal|bold"
+            android:textColor="#49494A"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left|center"
+            android:textSize="18dp"
+            android:drawableLeft="@drawable/next"
+            android:drawablePadding="5dp"
+            android:layout_marginRight="5dp"
+            android:paddingLeft="4dp"
+            android:text="Được chọn Bác sĩ/ Chuyên khoa/ Ngày khám "
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:textStyle="normal|bold"
+            android:textColor="#49494A"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left|center"
+            android:textSize="18dp"
+            android:drawableLeft="@drawable/next"
+            android:drawablePadding="5dp"
+            android:layout_marginRight="5dp"
+            android:paddingLeft="4dp"
+            android:text="Giảm tối đa thời gian chờ khám tại khám bệnh"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.4"
+            android:drawableLeft="@drawable/next"
+            android:drawablePadding="5dp"
+            android:gravity="left|center"
+            android:paddingLeft="4dp"
+            android:text="Nhắc lịch khám và tái khám"
+            android:textColor="#49494A"
+            android:textSize="18dp"
+            android:textStyle="normal|bold" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.3"
+            android:src="@drawable/tienich"
+            android:scaleType="fitCenter"
+
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

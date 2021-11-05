@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageButton
+            android:id="@+id/img_back_lichdatkham"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:background="#2196F3"
+            android:scaleType="center"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.4"
+            android:background="@drawable/bg_but"
+            android:gravity="center"
+            android:text="Đặt lịch khám"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.3"
+            android:background="#04786E" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:weightSum="2">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:background="#EDEBEB"
+            android:scaleType="center"
+            android:src="@drawable/person" />
+
+        <TextView
+            android:id="@+id/tv_tenbenhnhan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.7"
+            android:background="#EDEBEB"
+            android:gravity="left|center"
+            android:paddingLeft="15dp"
+            android:textColor="#2196F3"
+            android:textSize="24dp"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.5"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:scaleType="center"
+            android:src="@drawable/location_dk" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.7"
+            android:gravity="left|center"
+            android:imeOptions="actionDone"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:text="Bệnh viên TP.HCM"
+            android:textColor="#2196F3"
+            android:textSize="19dp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.7"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:scaleType="center"
+            android:src="@drawable/date" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.9"
+                android:gravity="left|center"
+                android:singleLine="true"
+                android:text="Ngày khám"
+                android:textColor="#090909"
+                android:textSize="19dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tv_ngaydatkham"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.1"
+                android:gravity="left|center"
+                android:singleLine="true"
+                android:textColor="#2196F3"
+                android:textSize="19dp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/img_chonlich_datkham"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/next" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.7"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:scaleType="center" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.9"
+                android:gravity="left|center"
+                android:singleLine="true"
+                android:text="Chuyên Khoa"
+                android:textColor="#090909"
+                android:textSize="19dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tv_chuyenkhoa_datkham"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.1"
+                android:gravity="left|center"
+                android:textAllCaps="true"
+                android:textColor="#2196F3"
+                android:textSize="19dp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/img_chonchuyenkhoa_datkham"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/next" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.7"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:weightSum="2">
+
+        <ImageView
+            android:src="@drawable/user"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:scaleType="center" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.9"
+                android:gravity="left|center"
+                android:text="Bác sĩ"
+                android:textColor="#090909"
+                android:textSize="19dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tv_tenbacsi"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.1"
+                android:gravity="left|center"
+                android:singleLine="true"
+                android:textColor="#2196F3"
+                android:textSize="19dp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/img_chonbacsi_datkham"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/next" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.7"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:scaleType="center"
+            android:src="@drawable/time" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.9"
+                android:gravity="left|center"
+                android:text="Phòng khám và giờ khám"
+                android:textColor="#090909"
+                android:textSize="19dp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/tv_phongkhamg_datkham1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.8"
+                    android:gravity="left|center"
+                    android:singleLine="true"
+                    android:textColor="#2196F3"
+                    android:textSize="19dp"
+                    android:textStyle="normal" />
+
+                <ImageButton
+                    android:id="@+id/tv_phongkhamg_datkham"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/next" />
+
+                <TextView
+                    android:id="@+id/tv_phongkhamgiokham"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.8"
+                    android:gravity="left|center"
+                    android:paddingLeft="9dp"
+                    android:singleLine="true"
+                    android:textColor="#2196F3"
+                    android:textSize="19dp"
+                    android:textStyle="normal" />
+                <ImageButton
+                    android:id="@+id/img_chongio_datkham"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/next" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.4"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:text="BHYT"
+            android:textColor="#1682D8"
+            android:textSize="18dp"
+            android:textStyle="normal|bold" />
+
+        <RadioGroup
+            android:id="@+id/rb_co_datkham"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_weight="1.2"
+            android:orientation="horizontal"
+            android:weightSum="2.1">
+
+            <RadioButton
+                android:id="@+id/rb_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:buttonTint="#00BCD4"
+                android:checked="false" />
+
+            <TextView
+                android:id="@+id/tv_co_datkham"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.7"
+                android:gravity="left|center"
+                android:text="Có"
+                android:textColor="#181919"
+                android:textSize="19dp"
+                android:textStyle="normal" />
+
+            <RadioButton
+                android:id="@+id/rb_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:buttonTint="#00BCD4"
+                android:checked="false" />
+
+            <TextView
+                android:id="@+id/tv_khong_datkham"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.8"
+                android:gravity="left|center"
+                android:text="Không"
+                android:textColor="#181919"
+                android:textSize="19dp"
+                android:textStyle="normal" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_datkham"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_weight="0.5"
+        android:background="@drawable/bg_datkham"
+        android:text="Đặt khám"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.04"
+        android:background="#C3C2C2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.02"
+        android:background="#FFFEFE" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:background="#9C9A9A"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:weightSum="1.2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="Tư vấn chuyên khoa"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:text="1900123123"
+                android:textColor="#17619E"
+                android:textSize="25dp"
+                android:textStyle="bold|normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:weightSum="1.2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="Tư vấn kỹ thuật"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:text="190055579"
+                android:textColor="#17619E"
+                android:textSize="25dp"
+                android:textStyle="bold|normal" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

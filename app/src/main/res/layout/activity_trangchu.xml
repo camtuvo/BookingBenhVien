@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hothithuhop.khambenhtructuyen.TrangChu.Trangchu_Activity">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/my_drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/bg_but" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="6.7"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:weightSum="6">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="16dp"
+                    android:layout_weight="2"
+                    app:cardCornerRadius="8dp">
+
+                    <com.smarteist.autoimageslider.SliderView
+                        android:id="@+id/img_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:sliderAnimationDuration="600"
+                        app:sliderAutoCycleDirection="back_and_forth"
+                        app:sliderIndicatorAnimationDuration="600"
+                        app:sliderIndicatorEnabled="true"
+                        app:sliderIndicatorGravity="center_horizontal|bottom"
+                        app:sliderIndicatorMargin="15dp"
+                        app:sliderIndicatorOrientation="horizontal"
+                        app:sliderIndicatorPadding="3dp"
+                        app:sliderIndicatorRadius="2dp"
+                        app:sliderIndicatorSelectedColor="#528782"
+                        app:sliderIndicatorUnselectedColor="#FFF"
+                        app:sliderScrollTimeInSec="1" />
+
+                </androidx.cardview.widget.CardView>
+
+                <Button
+                    android:id="@+id/btn_datlichkhamngay"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg_trangchu"
+                    android:text="ĐẶT LỊCH KHÁM NGAY"
+                    android:textAllCaps="true"
+                    android:textSize="20dp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.4"
+                    android:gravity="center"
+                    android:text="Tìm Hiểu Thêm"
+                    android:textAllCaps="true"
+                    android:textColor="#2B2A2A"
+                    android:textSize="19dp"
+                    android:textStyle="normal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.2"
+                    android:orientation="vertical"
+                    android:weightSum="2.3" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:weightSum="3.4" >
+                        <ImageButton
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1.1"
+                            android:background="@color/white"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/ql_hoso" />
+                        <ImageButton
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_weight="1.1"
+                            android:background="@color/white"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/ql_phieu" />
+                        <ImageButton
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.1"
+                            android:background="@color/white"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/chat" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.2"
+                        android:orientation="horizontal"
+                        android:weightSum="3.4" >
+                        <TextView
+                            android:id="@+id/tv_qlhoso"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1.1"
+                            android:gravity="center"
+                            android:text="Quản lý thông tin bệnh nhân"
+                            android:textColor="@color/black"
+                            android:textStyle="normal" />
+                        <TextView
+                            android:id="@+id/tv_qlphieukham"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_weight="1.1"
+                            android:gravity="center"
+                            android:text="Quản lý phiếu khám bệnh"
+                            android:textColor="@color/black"
+                            android:textStyle="normal" />
+                        <TextView
+                            android:id="@+id/tv_cacvande"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.1"
+                            android:gravity="center"
+                            android:text="Cac vấn đề thường gặp"
+                            android:textColor="@color/black"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.04"
+                    android:background="#C3C2C2" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.02"
+                    android:background="#FFFEFE" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:background="#9C9A9A"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:weightSum="1.2">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="Tư vấn chuyên khoa"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            android:textStyle="normal" />
+                        <TextView
+                            android:id="@+id/tv_call1"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.6"
+                            android:gravity="center"
+                            android:text="19007179"
+                            android:textColor="#17619E"
+                            android:textSize="25dp"
+                            android:textStyle="bold|normal" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:weightSum="1.2">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="Tư vấn kỹ thuật"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            android:textStyle="normal" />
+                        <TextView
+                            android:id="@+id/tv_call2"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.6"
+                            android:gravity="center"
+                            android:text="19002267"
+                            android:textColor="#17619E"
+                            android:textSize="25dp"
+                            android:textStyle="bold|normal" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigation_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/header_drawer_layout"
+            app:menu="@menu/menu_drawerlayout" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</LinearLayout>

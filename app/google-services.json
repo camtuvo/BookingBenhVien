@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "821839149392",
+    "project_id": "phong-kham-1a",
+    "storage_bucket": "phong-kham-1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821839149392:android:fec6c5f323853058669455",
+        "android_client_info": {
+          "package_name": "com.hothithuhop.khambenhtructuyen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821839149392-4p6657ljj51vuc98kb5j38dsquog7meg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAWlKgMBYFWpkWGHKdJUxJ9gH09rPJaz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821839149392-4p6657ljj51vuc98kb5j38dsquog7meg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

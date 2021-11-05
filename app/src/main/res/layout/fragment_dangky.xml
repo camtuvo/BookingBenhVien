@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <LinearLayout
+        android:background="@drawable/bg_dk"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="7"
+        >
+
+        <EditText
+            android:id="@+id/edt_hoten_dangky"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:textStyle="normal"
+            android:hint="Họ tên"
+            android:textColorHint="#454343"
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            android:gravity="left|center"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            />
+
+        <EditText
+            android:id="@+id/edt_taikhoan_dangky"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:textStyle="normal"
+            android:textSize="19dp"
+            android:hint="Tên tài khoản"
+            android:textColorHint="#454343"
+            android:textColor="@color/black"
+            android:gravity="left|center"
+            android:drawableLeft="@drawable/people"
+            android:drawablePadding="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            />
+
+
+        <EditText
+            android:id="@+id/edt_sdt_dangky"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_weight="0.8"
+            android:drawableLeft="@drawable/phone"
+            android:drawablePadding="15dp"
+            android:gravity="left|center"
+            android:hint="SĐT"
+            android:textColorHint="#454343"
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp">
+            <EditText
+                android:id="@+id/edt_matkhau_dangky"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.6"
+                android:textStyle="normal"
+                android:hint="Mật khẩu"
+                android:textColorHint="#454343"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                android:gravity="left|center"
+                android:drawableLeft="@drawable/search"
+                android:drawablePadding="15dp"
+
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"
+                android:scaleType="center"
+                android:src="@drawable/eye"
+                android:id="@+id/imgV_hienmk_dangky"/>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp">
+            <EditText
+                android:id="@+id/edt_nhapmatkhau_dangky"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.6"
+                android:textStyle="normal"
+                android:hint="Nhập mật khẩu"
+                android:textColorHint="#454343"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                android:gravity="left|center"
+                android:drawableLeft="@drawable/search"
+                android:drawablePadding="15dp"
+
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"
+                android:scaleType="center"
+                android:src="@drawable/eye"
+                android:id="@+id/imgV_hiennhapmk_dangky"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.3"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp">
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:checked="false"
+
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.7"
+                android:gravity="center"
+                android:text=" Tôi đồng ý với các Điều khoản dịch vụ và Chính sách bảo mật của bệnh viện HCM"
+                android:textColor="#020202"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_dangky_dangky"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:textStyle="normal|bold"
+            android:textColor="#F8F8F8"
+            android:textSize="21dp"
+            android:text="Đăng ký"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="88dp"
+            android:layout_marginRight="88dp"
+            android:background="@drawable/bg_nutdn"/>
+
+    </LinearLayout>
+
+</FrameLayout>
+
+

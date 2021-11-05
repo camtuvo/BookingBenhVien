@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DoAnAndroi/fontend/app/src/main/res/layout/activity_cacvandethuonggap.xml" value="0.1068840579710145" />
+        <entry key="..\:/DoAnAndroi/fontend/app/src/main/res/layout/activity_dangnhapdangky.xml" value="0.13020833333333334" />
+        <entry key="..\:/DoAnAndroi/fontend/app/src/main/res/layout/activity_datkham.xml" value="0.1716485507246377" />
+        <entry key="..\:/DoAnAndroi/fontend/app/src/main/res/layout/activity_dienthongtinbenhnhan.xml" value="0.20652173913043478" />
+        <entry key="..\:/DoAnAndroi/fontend/app/src/main/res/layout/activity_nhanphieukhambenh.xml" value="0.20108695652173914" />
+        <entry key="..\:/DoAnAndroi/fontend/app/src/main/res/layout/fragment_dangky.xml" value="0.2" />
+        <entry key="..\:/DoAnAndroi/fontend/app/src/main/res/layout/fragment_dangnhap.xml" value="0.13020833333333334" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22552083333333334" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/bg.xml" value="0.22552083333333334" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_dangnhap.xml" value="0.22552083333333334" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_dangnhapdangky.xml" value="0.22552083333333334" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_datkham.xml" value="0.17407407407407408" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_dk.xml" value="0.18425925925925926" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_hoantat.xml" value="0.2296875" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_nen.xml" value="0.22552083333333334" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_nutchuatung.xml" value="0.1638888888888889" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_nutdatung.xml" value="0.1638888888888889" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_nutdn.xml" value="0.18425925925925926" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_nutquaylai.xml" value="0.11574074074074074" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_sdt.xml" value="0.22552083333333334" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_themchuyenkhoa.xml" value="0.19444444444444445" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_trangchu.xml" value="0.1638888888888889" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/bgdangnhap.xml" value="0.19444444444444445" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/cart.xml" value="0.22552083333333334" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/date.xml" value="0.17962962962962964" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/dichvu.xml" value="0.19444444444444445" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/dongho.xml" value="0.19444444444444445" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/email.xml" value="0.22552083333333334" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/eye.xml" value="0.18425925925925926" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/icon_sdt.xml" value="0.19444444444444445" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/lich.xml" value="0.19444444444444445" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/location.xml" value="0.17037037037037037" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/location_dk.xml" value="0.17962962962962964" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/next.xml" value="0.17962962962962964" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/next_gray.xml" value="0.17962962962962964" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/next_nk.xml" value="0.17962962962962964" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/note.xml" value="0.19444444444444445" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/people.xml" value="0.18425925925925926" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/person.xml" value="0.19444444444444445" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/search.xml" value="0.22552083333333334" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/time.xml" value="0.17962962962962964" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/drawable/user.xml" value="0.18333333333333332" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_cacvandethuonggap.xml" value="0.1" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_chonphuongthucthanhtoan.xml" value="0.16" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_chonthongtinkham.xml" value="0.12771739130434784" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_dangky.xml" value="0.12771739130434784" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_dangnhap.xml" value="0.25" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_dangnhapdangky.xml" value="0.17" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_dangnhapsdt.xml" value="0.25" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_dangnhapsdt2.xml" value="0.209375" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_datkham.xml" value="0.25" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_datkham2.xml" value="0.209375" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_datlichkham.xml" value="0.12771739130434784" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_demo.xml" value="0.17" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_dienthongtinbenhnhan.xml" value="0.22" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_hoantatthanhtoan.xml" value="0.12771739130434784" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_hotro.xml" value="0.2" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_itemcpttt.xml" value="0.209375" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_itemxntt.xml" value="0.22" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_menu.xml" value="0.1415525114155251" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_nhanphieukhambenh.xml" value="0.25" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_quytrinh.xml" value="0.25" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_taohosobenhnhan.xml" value="0.25" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_thanhtoan.xml" value="0.12771739130434784" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_thu.xml" value="0.209375" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_tienloi.xml" value="0.1" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_time.xml" value="0.16" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_trangchu.xml" value="0.22" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_trangchu2.xml" value="0.1953125" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_xac_nhan_thong_tin.xml" value="0.15729166666666666" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_xacnhanthogtin2.xml" value="0.209375" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_xacnhanthongtin.xml" value="0.2" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_xacnhanthongtin1.xml" value="0.15729166666666666" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/activity_xacnhanthongtin2.xml" value="0.22" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/app_bar_menu.xml" value="0.21" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/content_menu.xml" value="0.2028985507246377" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/demo.xml" value="0.209375" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/fragment_dangky.xml" value="0.16847826086956522" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/fragment_dangnhap.xml" value="0.16847826086956522" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/fragment_gallery.xml" value="0.2028985507246377" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/fragment_home.xml" value="0.2028985507246377" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/fragment_hotro.xml" value="0.18" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/fragment_quytrinh.xml" value="0.1" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/fragment_tienloi.xml" value="0.22" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/fragment_xac_nhan_thong_tin2_.xml" value="0.15729166666666666" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/fragment_xac_nhanthong_tin1_.xml" value="0.15729166666666666" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/fragment_xacnhanthongtin1.xml" value="0.25" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/fragment_xacnhanthongtin2.xml" value="0.209375" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/image_item.xml" value="0.1" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/image_slider_layout_item.xml" value="0.209375" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/nav_header_menu.xml" value="0.2028985507246377" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/layout/trang_item.xml" value="0.18" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/menu/menu_tablayout.xml" value="0.209375" />
+        <entry key="..\:/KhamBenhTrucTuyen/app/src/main/res/menu/menu_tablayout_xntt.xml" value="0.209375" />
+        <entry key="..\:/TT_Web/New folder/BookingBenhVien/app/src/main/res/layout/activity_dangnhapdangky.xml" value="0.13020833333333334" />
+        <entry key="..\:/TT_Web/New folder/BookingBenhVien/app/src/main/res/layout/activity_history_bill.xml" value="0.264" />
+        <entry key="..\:/TT_Web/New folder/BookingBenhVien/app/src/main/res/layout/fragment_dangky.xml" value="0.25416666666666665" />
+        <entry key="..\:/TT_Web/New folder/BookingBenhVien/app/src/main/res/layout/item_history.xml" value="0.25416666666666665" />
+        <entry key="..\:/TT_Web/New folder/BookingBenhVien/app/src/main/res/menu/menu_tablayout.xml" value="0.13020833333333334" />
+        <entry key="..\:/TT_Web/New folder/test1/app/src/main/res/drawable/bg_nutdn.xml" value="0.14635416666666667" />
+        <entry key="..\:/TT_Web/New folder/test1/app/src/main/res/layout/activity_cacvandethuonggap.xml" value="0.25416666666666665" />
+        <entry key="..\:/TT_Web/New folder/test1/app/src/main/res/layout/activity_dangnhapdangky.xml" value="0.264" />
+        <entry key="..\:/TT_Web/New folder/test1/app/src/main/res/layout/activity_taohosobenhnhan.xml" value="0.13020833333333334" />
+        <entry key="..\:/TT_Web/New folder/test1/app/src/main/res/layout/activity_trangchu.xml" value="0.264" />
+        <entry key="..\:/TT_Web/New folder/test1/app/src/main/res/layout/fragment_dangky.xml" value="0.13020833333333334" />
+        <entry key="..\:/TT_Web/New folder/test1/app/src/main/res/layout/fragment_dangnhap.xml" value="0.2" />
+        <entry key="..\:/TT_Web/New folder/test1/app/src/main/res/layout/fragment_quytrinh.xml" value="0.13020833333333334" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_but.xml" value="0.2703125" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_datkham.xml" value="0.14791666666666667" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_dk.xml" value="0.2" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_hoantat.xml" value="0.14791666666666667" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_nen.xml" value="0.2703125" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_nutchuatung.xml" value="0.14791666666666667" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_nutdatung.xml" value="0.14791666666666667" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_nutdn.xml" value="0.2703125" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_nutmain.xml" value="0.14791666666666667" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_nutquaylai.xml" value="0.14791666666666667" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/drawable/bg_trangchu.xml" value="0.14791666666666667" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/drawable/location_tck.xml" value="0.14791666666666667" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/drawable/menu.xml" value="0.17083333333333334" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/drawable/person.xml" value="0.14791666666666667" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/drawable/ql_hoso.xml" value="0.16822916666666668" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/drawable/ql_phieu.xml" value="0.14791666666666667" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/drawable/search.xml" value="0.14791666666666667" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/drawable/side_nav_bar.xml" value="0.14791666666666667" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/drawable/time.xml" value="0.14791666666666667" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/drawable/user.xml" value="0.14791666666666667" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/drawable/user_grey.xml" value="0.14791666666666667" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/activity_cacvandethuonggap.xml" value="0.4" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/activity_chonphuongthucthanhtoan.xml" value="0.264" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/activity_dangnhapdangky.xml" value="0.264" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/activity_datkham.xml" value="0.25052083333333336" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/activity_demo.xml" value="0.4" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/activity_dienthongtinbenhnhan.xml" value="0.264" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/activity_history_bill.xml" value="0.25052083333333336" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/activity_itemcpttt.xml" value="0.264" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/activity_itemxntt.xml" value="0.4" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/activity_nhanphieukhambenh.xml" value="0.2" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/activity_taohosobenhnhan.xml" value="0.264" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/activity_trangchu.xml" value="0.25416666666666665" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/activity_xacnhanthongtin.xml" value="0.15208333333333332" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/fragment_dangky.xml" value="0.25416666666666665" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/fragment_dangnhap.xml" value="0.176" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/fragment_hotro.xml" value="0.25416666666666665" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/fragment_quytrinh.xml" value="0.2" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/fragment_slideshow.xml" value="0.25052083333333336" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/fragment_tienloi.xml" value="0.12760416666666666" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/fragment_xacnhanthongtin1.xml" value="0.2" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/fragment_xacnhanthongtin2.xml" value="0.2" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/header_drawer_layout.xml" value="0.2" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/image_item.xml" value="0.12760416666666666" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/item_history.xml" value="0.4" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/layout/trang_item.xml" value="0.176" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/menu/activity_main_drawer.xml" value="0.264" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/menu/menu_.xml" value="0.4" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/menu/menu_drawerlayout.xml" value="0.4" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/menu/menu_tablayout.xml" value="0.4" />
+        <entry key="..\:/TT_Web/hop/KhamBenhTrucTuyen/app/src/main/res/menu/menu_tablayout_xntt.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
